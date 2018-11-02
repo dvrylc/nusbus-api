@@ -12,4 +12,4 @@ describe('GET /', () => {
       .expect(apiInfo)
       .end(done);
   });
-})
+});
