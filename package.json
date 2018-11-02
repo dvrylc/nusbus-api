@@ -4,5 +4,18 @@
   "main": "index.js",
   "repository": "https://github.com/dvrylc/nusbus-api",
   "author": "Daryl Chan",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.5",
+    "supertest": "^3.3.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "NODE_ENV=test PORT=3001 mocha --exit"
+  }
 }
